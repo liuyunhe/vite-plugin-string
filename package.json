@@ -1,0 +1,43 @@
+{
+    "name": "@shepardliu/vite-plugin-string",
+    "version": "0.0.1",
+    "description": "Converts text files to modules. Such as .vs, .fs, .vert, .frag, .glsl etc.",
+    "repository": "https://github.com/liuyunhe/vite-plugin-string",
+    "author": "Shepard Liu <liuyunhe666@aliyun.com> (https://github.com/shepardliu)",
+    "type": "module",
+    "publishConfig": {
+        "registry": "https://registry.npmjs.org/",
+        "access": "public"
+    },
+    "exports": {
+        ".": {
+            "import": "./dist/index.mjs",
+            "require": "./dist/index.cjs"
+        }
+    },
+    "main": "./dist/index.cjs",
+    "types": "./dist/index.d.ts",
+    "scripts": {
+        "dev": "npm run build -- --watch",
+        "build": "unbuild",
+        "publishOnly": "npm publish --access public"
+    },
+    "license": "MIT",
+    "peerDependencies": {
+        "vite": ">=2"
+    },
+    "dependencies": {
+        "@rollup/pluginutils": ">=4.1.0"
+    },
+    "devDependencies": {
+        "@types/estree": "0.0.45",
+        "@types/node": ">=14.14.19",
+        "typescript": ">=4.1.2",
+        "unbuild": ">=1.0.1"
+    },
+    "files": [
+        "dist",
+        "src",
+        "README.md"
+    ]
+}
