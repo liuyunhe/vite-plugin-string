@@ -1,6 +1,6 @@
 import { UserConfig } from 'vite'
-import vitePluginString from 'vite-plugin-string'
+import vitePluginString from '../src'
 
 export default <UserConfig>{
-    plugins: [vitePluginString()],
+  plugins: [vitePluginString()]
 }
