@@ -6,5 +6,8 @@ export default defineBuildConfig({
   rollup: {
     emitCJS: true,
     inlineDependencies: true,
+    output: {
+      exports: 'named',
+    }
   },
 })
