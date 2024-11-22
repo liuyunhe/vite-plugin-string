@@ -47,7 +47,7 @@ export default function (userOptions: Options = {}): Plugin {
 
   // 返回插件对象
   return {
-    name: 'vite-plugin-string',
+    name: 'vite-plugin-string-converter',
     // 文件转换处理函数
     async transform(source, id) {
       // 如果文件不需要处理，则忽略

@@ -10,6 +10,6 @@
   },
   "devDependencies": {
     "vite": "^2.6.14",
-    "vite-plugin-string": ".."
+    "vite-plugin-string-converter": ".."
   }
 }

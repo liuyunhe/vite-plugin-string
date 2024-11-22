@@ -1,4 +1,4 @@
-# Vite Plugin String
+# Vite Plugin String Converter
 Converts text files to modules. Such as .vs, .fs, .vert, .frag, .glsl, wgsl etc.
 
 ```js
@@ -17,15 +17,13 @@ import fragment from './fragment.glsl?raw'
 
 ## Installation
 ```sh
-npm install --save-dev vite-plugin-string
+npm install --save-dev @shepardliu/vite-plugin-string-converter
 ```
-
-> If you are using `vite@1.0.0`, please install `vite-plugin-string@0.0.2`.
 
 ## Usage
 ``` js
 // vite.config.js
-import vitePluginString from 'vite-plugin-string'
+import vitePluginString from '@shepardliu/vite-plugin-string-converter'
 
 export default {
   plugins: [

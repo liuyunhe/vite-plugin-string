@@ -1,8 +1,8 @@
 {
-  "name": "@shepardliu/vite-plugin-string",
+  "name": "@shepardliu/vite-plugin-string-converter",
   "version": "0.0.2",
   "description": "Converts text files to modules. Such as .vs, .fs, .vert, .frag, .glsl etc.",
-  "repository": "https://github.com/liuyunhe/vite-plugin-string",
+  "repository": "https://github.com/liuyunhe/vite-plugin-string-converter",
   "author": "Shepard Liu <liuyunhe666@aliyun.com> (https://github.com/shepardliu)",
   "type": "module",
   "publishConfig": {
